@@ -5,11 +5,13 @@ import './homePage/NavBar.css';
 
 import TheGraph from './homePage/TheGraph.tsx';
 import './homePage/TheGraph.css';
+import './homePage/mca.css';
 
 import { Routes, Route } from 'react-router-dom';
 import About from './pages/about.tsx'
 import CONTACT from './pages/contact.tsx'
 import DETAILS from './pages/details.tsx'
+import MCA from './pages/mca.tsx'
 
 export default function App() {
   return (
@@ -21,6 +23,7 @@ export default function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<CONTACT />} />
         <Route path="/details" element={<DETAILS />} />
+        <Route path="/mca" element={<MCA />} />
       </Routes>
       </main>
       <Footer />
