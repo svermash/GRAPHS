@@ -477,9 +477,9 @@ export default function mca() {
       <li>Event Types</li>
       <li>Event Emitter API</li>
       <li>Creating an Event Emitter</li>
+    </ul>
       <li>Defer Execution of a Function</li>
       <li>Cancel Execution of a Function</li>
-    </ul>
   </ul>
   <p><b>Self-Learning Topics:</b> Additional Events</p>
 
@@ -487,12 +487,16 @@ export default function mca() {
 
   <b>File Handling & HTTP Web Server:</b>
   <ul>
-    <li>File Paths</li>
-    <li>fs Module</li>
-    <li>Opening a File</li>
-    <li>Reading from a File</li>
-    <li>Writing to a File</li>
-    <li>Closing a File</li>
+    <li>fs module:</li>
+    <ul>
+      <li>File Paths</li>
+      <li>fs Module</li>
+      <li>Opening a File</li>
+      <li>Reading from a File</li>
+      <li>Writing to a File</li>
+      <li>Closing a File</li>
+    </ul>
+
     <li>HTTP Request/Response Object</li>
     <li>Headers</li>
     <li>Piping</li>
@@ -561,6 +565,28 @@ export default function mca() {
     <li>React Router</li>
   </ul>
   <p><b>Self-Learning Topics:</b> Custom Hooks</p>
+  <div className="numbered">
+  <details>
+    <summary className="practicals">WT Practicals</summary>
+    <ol>
+      <li>Create an application to demonstrate Node.js Modules</li>
+      <li>Create an application to demonstrate various Node.js Events</li>
+      <li>Create an application to demonstrate Node.js Functions</li>
+      <li>Using File Handling demonstrate all basic file operations (Create, write, read, delete)</li>
+      <li>Create an HTTP Server and perform operations on it</li>
+      <li>Create an application to establish a connection with the MySQL database and perform basic database operations on it</li>
+      <li>Create an application in ReactJS to implement component life cycle</li>
+      <li>Create an application to implement class and functional component in ReactJS</li>
+      <li>Create an application in ReactJS to import and export the files (components)</li>
+      <li>Create an application to implement state and props</li>
+      <li>Create an application in ReactJS to use DOM events</li>
+      <li>Create an application in ReactJS form and add client and server side validation</li>
+      <li>Create an application to implement React Hooks</li>
+      <li>Create SPA using React Router</li>
+    </ol>
+  </details>
+  </div>
+
 </details>
 <hr className="sub-hr"></hr>
       </div>
