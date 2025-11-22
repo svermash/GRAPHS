@@ -60,11 +60,11 @@ export default function StackedBarGraph2() {
       stacked: true,
       ticks: {
         font: {
-          size: 8   // or any small value
+          size: 8   
         },
-        autoSkip: false,    // optional if you want all labels visible
-        maxRotation: 0,    // optional
-        minRotation: 0     // optional
+        autoSkip: false,    
+        maxRotation: 0,    
+        minRotation: 0     
       }
     },
       y: { stacked: true, beginAtZero: true }
