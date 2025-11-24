@@ -42,7 +42,7 @@ export default function StackedBarGraph() {
       {
         label: 'Total Practical',
         data: totals.map(s => s.practical),
-        backgroundColor: 'rgba(246,53,0,0.8)',
+        backgroundColor: 'rgba(219, 63, 19, 0.8)',
       },
       {
         label: 'Total Theory',
