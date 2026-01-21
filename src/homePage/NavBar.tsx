@@ -15,7 +15,7 @@ export default function NavBar(){
             <nav className="nav-class">
                 {/* first div */}
                 <div className="nav-action">
-                    <p className="logo">svermash</p>
+                    <p className="logo"></p>
                     <div className="Ham">
                         <div className={`ham-menu ${menuOpen ? "active" : ""}`}onClick={toggleMenu}>
                             <span></span>
@@ -32,6 +32,7 @@ export default function NavBar(){
                     <li><NavLink to="/contact" className={({ isActive }) => isActive ? "active-link" : ""} onClick={() => setMenuOpen(false)}>CONTACT</NavLink></li>
                     <li><NavLink to="/details" className={({ isActive }) => isActive ? "active-link" : ""} onClick={() => setMenuOpen(false)}>DETAILS</NavLink></li>
                     <li><NavLink to="/mca" className={({ isActive }) => isActive ? "active-link" : ""} onClick={() => setMenuOpen(false)}>MCA</NavLink></li>
+                    <li><NavLink to="/sorting" className={({ isActive }) => isActive ? "active-link" : ""} onClick={() => setMenuOpen(false)}>SORTING</NavLink></li>
                     </ul>
 
                 </div>
