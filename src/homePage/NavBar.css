@@ -294,7 +294,7 @@ hr{
     }
     .logo {
     position: absolute;  /* center in mobile view */
-    margin-left: 200px;
+    margin-left: 120px;
     margin-top: -24px;
     }
     /* make everything bottom column wise in mobile */
